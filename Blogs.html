@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body class="main-body">
+    <section class="sub-header">
+        <nav class="main-nav">
+            <a href="college.html"> <img src="eduford_img/logo.png" alt=""> </a>
+            <div id="list-item" class="list-items">
+                <img class="close-icon" src="eduford_img/close.png" alt="">
+                <ul>
+
+                    <li> <a href="college.html">home</a></li>
+                    <li> <a href="AboutUs.html">about</a></li>
+                    <li> <a href="Courses.html">course</a></li>
+                    <li> <a href="Blogs.html">blog</a></li>
+                    <li><a href="Contact-Us.html">contact us</a></li>
+                </ul>
+            </div>
+            <img class="menu-icon" src="eduford_img/menu.png" alt="">
+        </nav>
+        <div class="text-box-container">
+            <h1 class="text-box"> About Us</h1>
+        </div>
+    </section>
+    <section class="blog">
+        <div class="row">
+            <div class="blog-content-left">
+              <img src="eduford_img/certificate.jpg" alt=""> 
+              <div class="comment">
+                <input type="text" placeholder="enter your name">
+                <input type="email" placeholder="enter your email">
+                <textarea name="comment" id="" rows="5" placeholder="write your comment here"></textarea>
+                <button class="comment-btn">Post Your Comment</button>
+              </div>
+            </div>
+            <div class="blog-content-right">
+                <p> As a college student, youll have a lot of questions. While you can rely on college advisors, mentors, friends, and the like, a college blog is an easily accessible and always available resource. College students blogs are a great way for students looking to learn from other students, graduates, or professionals.</p>
+                <p> Twenty-three percent of the admissions officers surveyed said yes, and 59% said that regardless of whether they themselves check, they think what students post online can impact admissions decisionsi.e. is fair game. A freshman enters the Admissions building at Harvard University.</p>
+                <p>A blog is a great tool to show off your accomplishments and expertise to admissions officers, and since the spring semester is a great time to deepen your interests theres no better time to start.</p>
+                <p>A blog, much more than another club to throw on your activities list, is an individual pursuit that demonstrates a genuine passion for a certain area. Blogs arent impressive or flashy, so admissions officers arent likely to see this as another ruse to get into collegeand it shouldnt be.</p>
+                <p>If you have a blog, it will give college admissions and companies who are searching for interns some idea about you. Colleges are always looking to learn about their applicants, and showing them that you have started a reputable blog is a great start.</p>
+            </div>
+        </div>
+
+    </section>
+    <section class="footer-seaction">
+        <div class="footer-seaction-container">
+               <h2 class="footer-seaction-title">About Us</h2>
+               <p class="footer-seaction-disc">Eduford University, Pothepalli Village, Machilipatnam, Krishna(dt), Andhra Pradesh 52100.</p>
+               <div class="social-icons">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-twitter"></a>
+               </div>       
+        </div>
+    </section>
+</body>
+<Script>
+    $(".menu-icon").click(function () {
+        $(".list-items").show();
+    });
+    $(".close-icon").click(function () {
+        $(".list-items").hide();
+    });
+</Script>
+</head>
+
+</html>
